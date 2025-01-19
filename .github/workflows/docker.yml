@@ -25,10 +25,10 @@ jobs:
     
     - name: List built images  
       run: |  
-        ls ./output
+        ls ./output  
 
     - name: Upload built images  
-      uses: actions/upload-artifact@v2  
+      uses: actions/upload-artifact@v3  
       with:  
-        name: built-docker-images  
+        name: docker-images  
         path: ./output
