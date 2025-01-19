@@ -1,5 +1,5 @@
 <div align="center">
-<h1 align="center">Search4All</h1>
+<h1 align="center">Search4All-AI搜索</h1>
 The opensource AI search platform
 <br/>
 <a href="https://x.com/fatwang2ai/status/1771507973418049598" target="_blank"> Live Demo </a>
