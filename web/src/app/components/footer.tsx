@@ -28,7 +28,7 @@ export const Footer: FC = () => {
           className="hover:text-zinc-950"
           href="https://discord.com/invite/CKrvgCyK4y"
         >
-          discord
+          Discord
         </a>
         <a
           className="hover:text-zinc-950"
