@@ -26,3 +26,9 @@ jobs:
     - name: List built images  
       run: |  
         ls ./output
+
+    - name: Upload built images  
+      uses: actions/upload-artifact@v2  
+      with:  
+        name: built-docker-images  
+        path: ./output
