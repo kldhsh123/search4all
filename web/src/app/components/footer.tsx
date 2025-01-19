@@ -1,5 +1,3 @@
-import { Mails } from "lucide-react";
-import { FC } from "react";
 import Locale from "../locales";
 export const Footer: FC = () => {
   return (
