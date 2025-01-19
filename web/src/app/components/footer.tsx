@@ -1,3 +1,5 @@
+import { Mails } from "lucide-react"; // eslint-disable-line
+import { FC } from "react";
 import Locale from "../locales";
 export const Footer: FC = () => {
   return (
@@ -9,7 +11,6 @@ export const Footer: FC = () => {
             className="text-blue-500 font-medium inline-flex gap-1 items-center flex-nowrap text-nowrap"
             href="https://lepton.ai/"
           >
-            <Mails size={8} />
             Official Web Site
           </a>
         </div>
